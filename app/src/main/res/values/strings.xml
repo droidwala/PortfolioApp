@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PortfolioApp</string>
+    <string name="toolbar_header">PORTFOLIO APP</string>
+    <string name="spotify_btn">SPOTIFY STREAMER</string>
+    <string name="score_btn">SCORES APP</string>
+    <string name="library_btn">LIBRARY APP</string>
+    <string name="bigger_btn">BUILD IT BIGGER</string>
+    <string name="xyz_btn">XYZ READER</string>
+    <string name="capstone_btn">CAPSTONE</string>
+</resources>

@@ -1,0 +1,98 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout = "@layout/toolbar"/>
+    <com.example.punit.portfolioapp.Fonts.CustomButtonView
+        android:id="@+id/spotify_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="8dp"
+        android:text="@string/spotify_btn"
+        android:background="@drawable/button_back"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="18sp"
+        />
+    <com.example.punit.portfolioapp.Fonts.CustomButtonView
+        android:id="@+id/scores_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spotify_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="8dp"
+        android:text="@string/score_btn"
+        android:background="@drawable/button_back"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="18sp"/>
+    <com.example.punit.portfolioapp.Fonts.CustomButtonView
+        android:id="@+id/library_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scores_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="8dp"
+        android:text="@string/library_btn"
+        android:background="@drawable/button_back"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="18sp"/>
+    <com.example.punit.portfolioapp.Fonts.CustomButtonView
+        android:id="@+id/bigger_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/library_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="8dp"
+        android:text="@string/bigger_btn"
+        android:background="@drawable/button_back"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="18sp"/>
+    <com.example.punit.portfolioapp.Fonts.CustomButtonView
+        android:id="@+id/xyzreader_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bigger_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="8dp"
+        android:text="@string/xyz_btn"
+        android:background="@drawable/button_back"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="18sp"/>
+
+    <com.example.punit.portfolioapp.Fonts.CustomButtonView
+        android:id="@+id/capstone_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xyzreader_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="8dp"
+        android:text="@string/capstone_btn"
+        android:background="@drawable/capstone_back"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"/>
+</RelativeLayout>
+</ScrollView>
